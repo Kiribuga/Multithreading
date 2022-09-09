@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:text="@string/race_condition"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/countThreads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/input_count_threads"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/countIncrement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/input_increment"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/executeOperationWithoutSync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:shadowColor="@color/colorAccent"
+        android:text="@string/without_syncing" />
+
+    <Button
+        android:id="@+id/executeOperationWithSync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:shadowColor="@color/colorAccent"
+        android:text="@string/with_sync" />
+
+    <TextView
+        android:id="@+id/returnValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        tools:text="@tools:sample/full_names" />
+
+</LinearLayout>

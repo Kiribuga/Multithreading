@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Multithreading</string>
+    <string name="getList">Get a list of movies</string>
+    <string name="race_condition">Race condition</string>
+    <string name="input_count_threads">Введите количество потоков</string>
+    <string name="input_increment">Введите инкремент</string>
+    <string name="without_syncing">Без синхронизации</string>
+    <string name="with_sync">С синхронизацией</string>
+</resources>
